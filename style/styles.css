@@ -1,0 +1,264 @@
+    /* BASE */
+
+body {
+	background: url(../img/index1.jpg) no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+	/* Fin de la partie base */
+        /* Partie entête */
+
+header {
+	width: 100%;
+	position: relative;
+	min-height: 15em;
+}
+
+#logo {
+	width: 80%;
+	position: relative;
+	float: left;
+}
+
+#logo img {
+	margin-top: 2%;
+	width: 25%;
+	position: relative;
+	margin-left: 3%;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+}
+
+#MenuDeroulant {
+margin:0;
+padding:0;
+}
+
+
+#MenuDeroulant li {    
+float:left;
+list-style:none;
+font:15px Tahoma, Arial; /* La taille et la police du texte du menu */
+text-align:left;
+}
+
+#MenuDeroulant li a {    
+display:block;
+background:#333333; /* Couleur de fond des titres du menu */
+padding:5px 12px;
+text-decoration:none;
+width:80%;
+color:#FFFFFF; /* Couleur de police des titres du menu */
+white-space:nowrap;
+border-top:white 1px solid;
+border-bottom: white 1px solid;
+}
+
+#MenuDeroulant li a:hover{    
+background:pink;
+} /* Couleur de fond des titres du menu au survol de la souris */
+
+#MenuDeroulant li ul {
+margin:0;
+padding:0;
+position:absolute;
+visibility:hidden;
+border:1px solid white;
+}
+
+#MenuDeroulant li ul li {    
+float: none;
+display:inline;
+}
+
+#MenuDeroulant li ul li a {    
+min-width:60%;
+width:110px;
+background:#666666; /* Couleur de fond des items déroulant du menu*/
+border:none;
+}
+
+#MenuDeroulant li ul li a:hover {    
+background:white; /* Couleur de fond des items déroulant du menu au survol de la souris */
+color:#333;
+}
+
+
+	/* Fin de la partie entête */
+	/* Partie principale */
+#container {
+	width: 100%;
+	min-height: 60em;
+	position: relative;
+}
+
+#container form {
+	background: #f5f5f0;
+	width: 23%;
+	margin-top: 5%;
+	padding: 1%;
+	text-align: left;
+}
+
+
+#insciption {
+	width: 20%;
+	float: left;
+	background-color: #f5f5f0;
+	margin-top: 1%;
+	position: relative;
+}
+
+#insciption a {
+	text-decoration: none;
+	color: black;
+}
+
+#insciption p {
+	font-size: 155%;
+	text-align: center;
+}
+
+	/* Fin partie principale */
+	       /* Footer */
+footer {
+	width: 100%;
+	background-color: white;
+	min-height: 5em;
+}
+
+#footer {
+	
+}
+
+	/* Fin partie principale */
+		/* partie footer */
+
+footer {
+	height: 5em;
+}
+
+	/* Fin partie footer */
+		/* Partie RESPONSIVE */
+
+@media screen and (min-width: 830px) and (max-width: 1097px ) {
+
+
+body {
+	background-size: cover;
+	background-size: 100%;
+}
+
+#insciption {
+	width: 20%;
+	float: left;
+	position: relative;
+}
+
+#container {
+	min-height: 2em;
+}
+
+
+#container form {
+	width: 100%;
+	margin-top: 30%;
+	text-align: center;
+}
+
+footer {
+	height: 1%;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 830px) {
+
+body {
+	background: url(../img/index3.jpg) no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+header {
+	height: 50em;
+}
+
+#logo img {
+	width: 55%;
+	margin-left: 30%;
+	margin-bottom: 6%;
+}
+
+#insciption {
+	position: relative;
+	width: 100%;
+}
+
+#container {
+	min-height: 3em;
+}
+
+#container form {
+	width: 100%;
+	height: 36em;
+}
+
+#container p {
+	text-align: center;
+	padding-top: 1em;
+}
+
+footer {
+	height: 1em;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 620px) {
+
+body {
+	background: url(../img/index3.jpg) no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+header {
+	height: 45em;
+}
+
+#logo img {
+	width: 40%;
+	margin-left: 40%;
+	margin-bottom: 1%;
+}
+
+#insciption {
+	position: relative;
+	width: 100%;
+}
+
+#container {
+	min-height: 3em;
+}
+
+#container form {
+	width: 100%;
+	height: 36em;
+	margin: 0 0;
+}
+
+#container p {
+	text-align: center;
+	padding-top: 1em;
+}
+
+footer {
+	height: 1em;
+}
+}
